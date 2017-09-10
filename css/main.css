@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Open+Sans:400,600');
+main {
+    height: 60vh;
+    text-align: center;
+}
+
+.profile {
+    width: 100%;
+}
+
+ul.social {
+    padding-left: 2.4vw;
+    float: left;
+    list-style: none;
+}
+
+ul.social li {
+    display: inline-block;
+    padding-right: 20px
+}
+
+ul.social li a {
+    color: black;
+    width: 140%;
+    height: 140%;
+}
+
+#name {
+    font-size: 100px;
+    font-family: 'Audiowide', cursive;
+}
+
+#subtitle {
+    float: right;
+    padding-right: 2.4vw;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tabs {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tabs .selected {
+    background-color: #24A2D7;
+}
+
+.tabs .selected a,
+.tabs div a:hover {
+    color: white;
+}
+
+.main-content {
+    font-family: 'Open Sans', sans-serif;
+    min-height: 60vh;
+}
+
+.main-content em {
+    font-size: 20px;
+    font-style: normal;
+
+}
+.project-card {
+    min-height: 250px !important;
+    width: auto;
+    text-align: center;
+}
+.carousel .carousel-item {
+    height: 400px;
+    width: 400px;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
